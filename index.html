@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/utilities/layouts.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <section id="login-section" class="to-column column-center-Y  ">
+          <div class="to-column" id="login-div">
+            <h1>Login</h1>
+            <form class="to-column Gap" id="login-form">
+                <input type="text" name="user" id="user" placeholder="Enter your user name..." required>
+                <h3 id="user-err" class="err">Wrong mail!</h3>
+                <input type="password" name="password" id="password" placeholder="********" required>
+                <h3 id="pass-err" class="err">Wrong password!</h3>
+                <button type="submit"  id="loger">login</button>
+            </form>
+          </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>

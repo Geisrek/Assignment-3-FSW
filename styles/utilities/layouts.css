@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.flex-items{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mid{
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    
+    justify-content: end;
+}
+.to-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Gap{
+    gap: 5px;
+}
+.Gap-10{
+    gap: 10px;
+}
+.Gap-15{
+    gap:15px;
+}
+.column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mid-X{
+    justify-content: center;
+}
+.row{
+    flex-direction:row;
+}
+.column-center-Y{
+    align-items: center;
+}
+.foot{
+    justify-content: end;
+}
+.foot-item{
+    flex-grow: 1;
+   
+}
+
