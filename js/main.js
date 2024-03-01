@@ -13,7 +13,7 @@ function checkArray(){
         
          tasks=JSON.parse(tasks)
          fillTaskList(tasks)
-         //tasks.tasks
+         tasks.tasks
          console.log(tasks.tasks)
         
     }
@@ -29,7 +29,7 @@ function fillTaskList(tasks){
     }
     
 }
-//fillTaskList(tasks)
+
 function checkTextValidation(text){
     return text!=''
 }
