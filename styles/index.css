@@ -40,3 +40,8 @@ div button{
    height: 2rem;
    
 }
+@media (max-width:600px) {
+    div button{
+        flex-grow:1;
+    }
+}
