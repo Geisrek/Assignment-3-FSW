@@ -49,6 +49,7 @@
 }
 .foot{
     justify-content: end;
+    
 }
 .foot-item{
     flex-grow: 1;
